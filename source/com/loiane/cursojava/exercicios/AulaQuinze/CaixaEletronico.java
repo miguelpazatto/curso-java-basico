@@ -16,15 +16,15 @@ public class CaixaEletronico {
         resto = valorSaque % 100;
 
         System.out.println("Notas de cinquenta: " + (resto / 50));
-        resto = valorSaque % 50;
+        resto = resto % 50;
 
         System.out.println("Notas de dez: " + (resto / 10));
-        resto = valorSaque % 10;
+        resto = resto % 10;
 
         System.out.println("Notas de cinco: " + (resto / 5));
-        resto = valorSaque % 5;
+        resto = resto % 5;
 
-        System.out.println("Notas de cinquenta: " + (resto / 1));
+        System.out.println("Notas de um: " + (resto / 1));
 
     }
 

@@ -1,4 +1,4 @@
-package com.loiane.cursojava.exercicios.AulaQuinze;
+package com.loiane.cursojava.exercicios.Aula15;
 
 import java.util.Scanner;
 
@@ -31,10 +31,10 @@ public class Fruteira {
 
         double resultado = precoMorango + precoMaca;
 
-        if (kgMorango + kgMaca <= 8 || resultado <= 25) {
+        if (kgMorango + kgMaca > 8 || resultado > 25) {
+            resultado = resultado * 0.9;
             System.out.println("Valor a ser pago: " + resultado);
         } else {
-            resultado = resultado * 0.9;
             System.out.println("Valor a ser pago: " + resultado);
         }
 

@@ -20,8 +20,11 @@ public class Exercicio20 {
         for (int i = fatorial; i >= 1; i--) {
             resultado = resultado * i;
 
-            System.out.println(resultado);
+            
         }
+
+        System.out.println("O fatorial de " + fatorial + " é: " + resultado);
+
         } else {
             System.out.println("Valor inválido, digite um número positivo e menor que 16");
             fatorial = scan.nextInt();

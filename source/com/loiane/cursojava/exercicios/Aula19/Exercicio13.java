@@ -1,0 +1,32 @@
+package com.loiane.cursojava.exercicios.Aula19;
+
+import java.util.Scanner;
+
+public class Exercicio13 {
+
+    public static void main(String[] args) {
+        
+        Scanner scan = new Scanner(System.in);
+
+        int[] vetorA = new int[10];
+        int soma = 0;
+
+        for (int i = 0; i < vetorA.length; i++) {
+            System.out.println("Escreva o número da posição " + i);
+            vetorA[i] = scan.nextInt();
+
+            if (vetorA[i] % 5 == 0 ) {
+                soma += vetorA[i];
+            }
+        }
+
+        System.out.print("Vetor A = ");
+        for(int i = 0; i < vetorA.length; i++) {
+            System.out.print(vetorA[i] + " ");
+        }
+        System.out.println();
+        System.out.println("Soma dos valores múltiplos de 5 do vetor: " + soma);
+
+    }
+
+}

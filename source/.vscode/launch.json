@@ -1,0 +1,56 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Exercicio1",
+            "request": "launch",
+            "mainClass": "com.loiane.cursojava.exercicios.aula25a27.Exercicio1",
+            "projectName": "source_c5db47fb"
+        },
+        {
+            "type": "java",
+            "name": "TesteCarro",
+            "request": "launch",
+            "mainClass": "com.loiane.cursojava.aula25.TesteCarro",
+            "projectName": "source_c5db47fb"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio5",
+            "request": "launch",
+            "mainClass": "com.loiane.cursojava.exercicios.aula24.Exercicio5",
+            "projectName": "source_c5db47fb"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio4",
+            "request": "launch",
+            "mainClass": "com.loiane.cursojava.exercicios.aula24.Exercicio4",
+            "projectName": "source_c5db47fb"
+        },
+        {
+            "type": "java",
+            "name": "TesteCarro",
+            "request": "launch",
+            "mainClass": "com.loiane.cursojava.aula24.TesteCarro",
+            "projectName": "source_c5db47fb"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio6",
+            "request": "launch",
+            "mainClass": "com.loiane.cursojava.exercicios.aula20.Exercicio6",
+            "projectName": "source_c5db47fb"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        }
+    ]
+}

@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TesteCarro",
+            "request": "launch",
+            "mainClass": "com.loiane.cursojava.aula30.TesteCarro",
+            "projectName": "source_c5db47fb"
+        },
+        {
+            "type": "java",
+            "name": "TesteCarro",
+            "request": "launch",
+            "mainClass": "TesteCarro",
+            "projectName": "source_c5db47fb"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio4",
+            "request": "launch",
+            "mainClass": "com.loiane.cursojava.exercicios.aula25a27.Exercicio4",
+            "projectName": "source_c5db47fb"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio3",
+            "request": "launch",
+            "mainClass": "com.loiane.cursojava.exercicios.aula25a27.Exercicio3",
+            "projectName": "source_c5db47fb"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio2",
+            "request": "launch",
+            "mainClass": "com.loiane.cursojava.exercicios.aula25a27.Exercicio2",
+            "projectName": "source_c5db47fb"
+        },
+        {
+            "type": "java",
             "name": "Exercicio1",
             "request": "launch",
             "mainClass": "com.loiane.cursojava.exercicios.aula25a27.Exercicio1",

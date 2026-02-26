@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TesteCalculadora",
+            "request": "launch",
+            "mainClass": "com.loiane.cursojava.exercicios.aula35.TesteCalculadora",
+            "projectName": "source_c5db47fb"
+        },
+        {
+            "type": "java",
+            "name": "TesteFibonacci",
+            "request": "launch",
+            "mainClass": "com.loiane.cursojava.exercicios.aula35.TesteFibonacci",
+            "projectName": "source_c5db47fb"
+        },
+        {
+            "type": "java",
+            "name": "TesteCalculadora",
+            "request": "launch",
+            "mainClass": "com.loiane.cursojava.aula35.TesteCalculadora",
+            "projectName": "source_c5db47fb"
+        },
+        {
+            "type": "java",
             "name": "TesteCarro",
             "request": "launch",
             "mainClass": "com.loiane.cursojava.aula30.TesteCarro",

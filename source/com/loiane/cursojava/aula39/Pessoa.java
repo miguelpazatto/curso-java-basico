@@ -1,4 +1,4 @@
-package com.loiane.cursojava.aula37;
+package com.loiane.cursojava.aula39;
 
 public class Pessoa {
 
@@ -7,6 +7,16 @@ public class Pessoa {
     private String telefone;
     private String cpf;
     private String telefoneCelular;
+    protected String nomeVisibilidade; // classe, pacote e subclasse podem ver (todo mundo não)
+
+    public Pessoa() {}
+
+    public Pessoa(String nome, String endereco, String telefone) {
+        super();
+        this.nome = nome;
+        this.endereco = endereco;
+        this.telefone = telefone;
+    }
 
     public String getNome() {
         return nome;

@@ -1,4 +1,4 @@
-package com.loiane.cursojava.aula37;
+package com.loiane.cursojava.aula40;
 
 public class Pessoa {
 
@@ -7,6 +7,15 @@ public class Pessoa {
     private String telefone;
     private String cpf;
     private String telefoneCelular;
+
+    public Pessoa() {}
+
+    public Pessoa(String nome, String endereco, String telefone) {
+        super();
+        this.nome = nome;
+        this.endereco = endereco;
+        this.telefone = telefone;
+    }
 
     public String getNome() {
         return nome;
@@ -43,4 +52,8 @@ public class Pessoa {
         this.telefoneCelular = telefoneCelular;
     }
 
+    public String obterEtiquetaEndereço() {
+        
+        return endereco;
+    }
 }

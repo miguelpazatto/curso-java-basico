@@ -1,4 +1,4 @@
-package com.loiane.cursojava.aula37;
+package com.loiane.cursojava.aula38;
 
 public class Professor extends Pessoa { // henraça - relacionamento do tipo: é um / é uma
                                         // logo, professor é uma pessoa

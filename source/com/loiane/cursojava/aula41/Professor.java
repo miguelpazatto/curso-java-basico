@@ -1,4 +1,4 @@
-package com.loiane.cursojava.aula37;
+package com.loiane.cursojava.aula41;
 
 public class Professor extends Pessoa { // henraça - relacionamento do tipo: é um / é uma
                                         // logo, professor é uma pessoa
@@ -22,6 +22,21 @@ public class Professor extends Pessoa { // henraça - relacionamento do tipo: é
 
     public double calcularSalarioLiquido() {
         return 0;
+    }
+
+    public String obterEtiquetaEndereço() { //sobrepondo e modificando o comportamento do método de Pessoa
+        
+        String s = "Endereço do Professor: ";
+        s += this.getEndereco();
+
+        return s;
+    }
+    @Override
+    public void imprimirEtiquetaEndereco() {
+        System.out.println("Imprimindo endereço do professor:");
+        System.out.println(this.obterEtiquetaEndereço());
+        
+        
     }
     
 }

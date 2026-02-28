@@ -1,12 +1,22 @@
-package com.loiane.cursojava.aula37;
+package com.loiane.cursojava.aula41;
 
-public class Pessoa {
+//abstract - não permite instanciar a classe, apenas defini-la
+public abstract class Pessoa {
 
     private String nome;
     private String endereco;
     private String telefone;
     private String cpf;
     private String telefoneCelular;
+
+    public Pessoa() {}
+
+    public Pessoa(String nome, String endereco, String telefone) {
+        super();
+        this.nome = nome;
+        this.endereco = endereco;
+        this.telefone = telefone;
+    }
 
     public String getNome() {
         return nome;
@@ -43,4 +53,7 @@ public class Pessoa {
         this.telefoneCelular = telefoneCelular;
     }
 
+    public abstract String obterEtiquetaEndereço(); //devem ser declarados nas classes filhas
+
+    public abstract void imprimirEtiquetaEndereco(); 
 }

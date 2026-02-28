@@ -1,9 +1,23 @@
-package com.loiane.cursojava.aula37;
+package com.loiane.cursojava.aula39;
 
 public class Aluno extends Pessoa { 
 
     private String curso;
     private double[] notas;
+
+    public void verificarAcesso() {
+        this.nomeVisibilidade = "sdadadad";
+        super.nomeVisibilidade = "sdadadad";
+    }
+
+    public Aluno() {
+        super();
+    }
+
+    public Aluno(String nome, String endereco, String telefone, String curso) {
+        super(nome, endereco, telefone); //usamos quando queremos fazer referência a super classe
+        this.curso = curso;      //da pra usar métodos usando super ou this, vai a gosto
+    }
 
     public String getCurso() {
         return curso;

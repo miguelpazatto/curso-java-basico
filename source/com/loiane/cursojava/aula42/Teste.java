@@ -1,22 +1,16 @@
-package com.loiane.cursojava.aula41;
+package com.loiane.cursojava.aula42;
 
+//valor final não pode ser alterado
 public class Teste {
 
     public static void main(String[] args) {
         
-        //Pessoa pessoa = new Pessoa(); erro derivado do abstract
-        Pessoa aluno = new Aluno();
-        Pessoa professor = new Professor();
+        Pessoa pessoa = new Pessoa();
+        //Pessoa aluno = new Aluno();
+        //Pessoa professor = new Professor(); //final impede que professor estenda pessoa
+        Aluno aluno = new Aluno();
+        Professor professor = new Professor();
 
-        //pessoa.setEndereco("Rua 1, num 1");
-        aluno.setEndereco("Rua 2, num 2");
-        professor.setEndereco("Rua 3, num 3");
-
-        //System.out.println(aluno.obterEtiquetaEndereço());
-        //System.out.println(professor.obterEtiquetaEndereço());
-
-        aluno.imprimirEtiquetaEndereco();
-        professor.imprimirEtiquetaEndereco();
 
     }
 

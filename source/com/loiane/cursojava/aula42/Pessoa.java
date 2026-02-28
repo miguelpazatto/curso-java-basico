@@ -1,7 +1,8 @@
-package com.loiane.cursojava.aula41;
+package com.loiane.cursojava.aula42;
 
-//abstract - não permite instanciar a classe, apenas defini-la
-public abstract class Pessoa {
+//final - impede que haja herança (String por exemplo é um caso de utilidade disso)
+//quando usado em variaveis as torna CONSTANTES - que são declaradas em CapsLock e underscore (exemplo: URL_SITE)
+public final class Pessoa {
 
     private String nome;
     private String endereco;
@@ -53,7 +54,7 @@ public abstract class Pessoa {
         this.telefoneCelular = telefoneCelular;
     }
 
-    public abstract String obterEtiquetaEndereço(); //devem ser declarados nas classes filhas
+    //public abstract String obterEtiquetaEndereço(); //devem ser declarados nas classes filhas
 
-    public abstract void imprimirEtiquetaEndereco(); 
+    //public abstract void imprimirEtiquetaEndereco(); 
 }

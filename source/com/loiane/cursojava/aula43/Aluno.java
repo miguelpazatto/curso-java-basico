@@ -1,4 +1,6 @@
-package com.loiane.cursojava.aula42;
+package com.loiane.cursojava.aula43;
+
+import java.util.Arrays;
 
 public class Aluno { 
 
@@ -50,4 +52,20 @@ public class Aluno {
         
     }
 
+    @Override
+    public String toString() {
+        return "Aluno [curso=" + curso + ", notas=" + Arrays.toString(notas) + "]";
+    }
+
+    /* 
+    public String toString() {
+        String s =  curso + "\n";
+        for (double nota : notas) {
+            s += nota + " ";
+        }
+        return s;
+    }
+    */
+
+    
 }

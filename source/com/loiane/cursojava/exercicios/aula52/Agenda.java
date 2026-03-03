@@ -15,6 +15,7 @@ public class Agenda {
             if (contatos == null) {
                 contatos[i] = c;
                 cheia = false;
+                break;
             }
         }
 

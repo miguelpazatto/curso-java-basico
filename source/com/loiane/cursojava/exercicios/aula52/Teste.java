@@ -9,8 +9,12 @@ public class Teste {
         Scanner scan = new Scanner(System.in);
         Agenda agenda = new Agenda();
 
-        int opcao = obterOpcaoMenu(scan);
+        int opcao = 1;
 
+        while (opcao != 3){
+            opcao = obterOpcaoMenu(scan);
+        }
+        
         if (opcao == 1) { //consultar contato
             consultarContato(scan, agenda);
         } else if (opcao == 2) { //adicionar contato

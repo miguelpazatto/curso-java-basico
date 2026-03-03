@@ -1,7 +1,5 @@
 package com.loiane.cursojava.exercicios.aula43;
 
-import com.loiane.cursojava.aula37.Pessoa;
-
 public class Teste {
 
     public static void main(String[] args) {
